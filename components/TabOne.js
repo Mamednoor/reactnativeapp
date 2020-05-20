@@ -1,22 +1,21 @@
-import React from 'react';
-import { StyleSheet, View, Button, Alert, Text } from 'react-native';
+import React from "react";
+import { StyleSheet, View, Button, Alert, Text } from "react-native";
 
-export default class TabOne extends React.Component {
-
-  render() {
-    return (
-      <View style={styles.container}>
-        <Text>Tu es sur l'onglet 1</Text>
-      </View>
-    );
-  }
+function TabOne() {
+  return (
+    <View style={styles.container}>
+      <Text>Waouh !! First try to create a Mobile App !! it's the first Tab</Text>
+    </View>
+  );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center'
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "center",
   },
 });
+
+export default TabOne;
